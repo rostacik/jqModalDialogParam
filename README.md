@@ -6,5 +6,4 @@ Proof of concept how to pass/access data from JS on host page to JS on iframed p
 
 ## How to build
 1. clone repo,
-2. build in visual studio (will build js from ts files)
-3. 
+2. open hostPage.html

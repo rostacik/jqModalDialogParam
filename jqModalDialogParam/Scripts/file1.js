@@ -9,7 +9,7 @@
 
 	$("#openStringDialog").click(function ()
 	{
-		var dialogDiv = $("<div id='dialog-div' class='dialog' title='string value'><iframe src='insidePage.html' frameborder='0'></iframe></div>")
+		var dialogDiv = $("<div id='dialog-div' class='dialog' title='string value'><iframe src='modalPage.html' frameborder='0'></iframe></div>")
 			.data("modalDataProperty", $("#stringDataValue").val())
 			.dialog({
 				closeOnEscape: false,
@@ -25,7 +25,7 @@
 
 	$("#openDateDialog").click(function ()
 	{
-		var dialogDiv = $("<div id='dialog-div' class='dialog' title='Date value'><iframe src='insidePage.html' frameborder='0'></iframe></div>")
+		var dialogDiv = $("<div id='dialog-div' class='dialog' title='Date value'><iframe src='modalPage.html' frameborder='0'></iframe></div>")
 			.data("modalDataProperty", new Date($("#datePicker").val()))
 			.dialog({
 				closeOnEscape: false,

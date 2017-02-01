@@ -109,12 +109,11 @@
     <Content Include="Content\themes\base\tabs.css" />
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
-    <Content Include="HTML\HtmlPage1.html" />
-    <Content Include="HTML\insidePage.html" />
+    <Content Include="HTML\hostPage.html" />
+    <Content Include="HTML\modalPage.html" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
-    <Content Include="README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
