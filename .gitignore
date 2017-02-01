@@ -252,3 +252,5 @@ paket-files/
 *.sln.iml
 /jqModalDialogParam/Scripts/file2.js.map
 /jqModalDialogParam/Scripts/file2.js
+/jqModalDialogParam/Scripts/file1.js
+/jqModalDialogParam/Scripts/file1.js.map
