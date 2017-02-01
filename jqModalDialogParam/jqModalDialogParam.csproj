@@ -109,8 +109,8 @@
     <Content Include="Content\themes\base\tabs.css" />
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
-    <Content Include="HTML\hostPage.html" />
-    <Content Include="HTML\modalPage.html" />
+    <Content Include="HTML\simpleModal\hostPage.html" />
+    <Content Include="HTML\simpleModal\modalPage.html" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
@@ -136,8 +136,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\file1.js" />
-    <Content Include="Scripts\file2.js" />
+    <Content Include="Scripts\simpleModal\file1.js" />
+    <Content Include="Scripts\simpleModal\file2.js" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

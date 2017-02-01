@@ -1,6 +1,6 @@
 ﻿$(document).ready(function()
 {
-	//debugger;
+	debugger;
 
 	var retVal = window.parent.$(window.frameElement.parentElement).data("modalDataProperty");
 
