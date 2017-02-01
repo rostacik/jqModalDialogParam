@@ -1,5 +1,12 @@
 ﻿$(document).ready(function()
 {
 	//debugger;
-	$("#content").text(window.parent.$(window.frameElement.parentElement).data("modalDataProperty"));
+
+	var retVal = window.parent.$(window.frameElement.parentElement).data("modalDataProperty");
+
+	if ($.type(retVal) === "error") {
+		$("#content").text("Error : " + retVal.message + " , stack trace : " + retVal.stack);
+	} else {
+		$("#content").text(retVal);
+	}
 });

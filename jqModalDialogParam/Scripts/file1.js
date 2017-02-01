@@ -39,5 +39,19 @@
 			});
 	});
 
-
+$("#openErrorDialog").click(function ()
+	{
+		var dialogDiv = $("<div id='dialog-div' class='dialog' title='Date value'><iframe src='modalPage.html' frameborder='0'></iframe></div>")
+			.data("modalDataProperty", new Error($("#errorObjectString").val()))
+			.dialog({
+				closeOnEscape: false,
+				title: "Date value",
+				modal: true,
+				close: function (event, ui)
+				{
+					dialogDiv.dialog('destroy').remove();
+				},
+				width: 400
+			});
+	});
 });
