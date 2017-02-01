@@ -250,3 +250,5 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+/jqModalDialogParam/Scripts/file2.js.map
+/jqModalDialogParam/Scripts/file2.js
